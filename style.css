@@ -1,0 +1,133 @@
+/* COLOUR
+#0A2463
+#3E92CC
+#FFFAFF
+#D8315B
+#1E1B18 
+*/
+/* #92977E
+#E6E18F
+#FEFCAD
+#EADDA6
+#FFFAE2 */
+
+/*GLOBAL
+-----------------*/
+html{
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+img{
+    width: 300px;
+}
+h2{
+    font-size: 45px;
+}
+h1,h2{
+    font-family: "DM Serif Text", serif;
+    font-weight: 300;
+    padding: 10px 0;
+    margin: 0;
+}
+h1{
+    font-size: 100px;
+    line-height: 1;
+    /* font-family: "Caveat",cursive; */
+}
+h3{
+    margin-top: 0;
+}
+a{
+    color:#FFFAFF;
+}
+.content-wrap{
+    width: 60%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+/*PROFILE
+-----------------*/
+header{
+    background-color: #92977E;
+    color: #1E1B18;
+    /* color: white; */
+    padding: 10px;
+    text-align: center;
+}
+
+
+/*PROJECTS
+-----------------*/
+.project{
+    padding: 10px 0;
+    overflow: hidden;
+    border-bottom: 1px dashed #92977E;
+    padding: 25px 0;
+}
+.project img{
+    float:left;
+    margin-right: 20px;
+}
+.projects{
+    background-color: #FFFAE2;
+    color: #1E1B18;
+    padding: 10px;
+}
+.projects a {
+    color: #1E1B18;
+    background-color: #92977E;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+.projects a:hover {
+    background-color: #6b715c;
+}
+.projects section p{
+    margin-bottom: 20px;
+}
+/*WORK EXPERIENCE
+-----------------*/
+.work-experience{
+    background-color: #EADDA6;
+    color: #1E1B18;
+    padding: 10px;
+}
+
+/*EDUCATION
+-----------------*/
+.education{
+    background-color: #FEFCAD;
+    color: #1E1B18;
+    padding: 10px;
+}
+
+/*CONTACT
+-----------------*/
+.contact-list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-list a{
+    padding: 10px;
+}
+footer{
+    background-color: #1d1e18;
+    color: #FEFCAD;
+    padding: 10px;
+    text-align: center;
+}
+footer a{
+    color: #FFFAE2;
+}
